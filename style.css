@@ -1,0 +1,134 @@
+body {
+    background-image: url(todo.jpg);
+    background-size: cover;
+}
+
+#Header {
+    text-align: center;
+    font-family: 'Lobster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    color: white;
+}
+
+#Lable1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#Textin {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-size: 25px;
+    /* font-style: oblique; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex: auto;
+    flex-direction: row;
+}
+
+#Textin:hover {
+    background-color: #cec4bb;
+}
+
+#TaskConsole {
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #a99682;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 7em;
+    margin-right: 7em;
+    font-size: 20px;
+    flex: 1;
+    flex-direction: row;
+}
+
+#Sub {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #a99682;
+}
+
+#Sub:hover {
+    background-color: #cec4bb;
+}
+
+#Res {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #a99682;
+}
+
+#Res:hover {
+    background-color: #cec4bb;
+}
+
+#save {
+    border-radius: 5px;
+    background-color: #a99682;
+    display: inline-block;
+}
+
+#save:hover {
+    background-color: #cec4bb;
+}
+
+#StatusPar {
+    text-align: center;
+    font-size: 30px;
+}
+
+#Status {
+    border-style: solid;
+    background-color: #a99682;
+    border-radius: 15px;
+    border-color: black;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    padding: 5px;
+    font-style: oblique;
+    flex: auto;
+}
+
+#OverAllBorder {
+    flex: auto;
+    border-color: #ccc6c6;
+    border-style: solid;
+    background-color: #34614d91;
+    margin-top: 60px;
+}
